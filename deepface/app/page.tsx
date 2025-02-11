@@ -63,13 +63,6 @@ export default function Home() {
             <source src={videoUrl} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
-          <a
-            href={videoUrl}
-            download="generated_avatar.mp4"
-            className="mt-4 px-4 py-2 bg-green-600 hover:bg-green-500 text-white rounded-lg font-bold"
-          >
-            📥 Download Video
-          </a>
         </div>
       )}
     </div>
